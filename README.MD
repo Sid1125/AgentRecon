@@ -9,7 +9,6 @@
 > ## ⚠️ **THIS PROJECT IS NOT PLUG-AND-PLAY!**
 > - You must be comfortable with Docker, Python, and troubleshooting.
 > - This is a research/advanced tool, not a one-click solution.
-> - **If you are looking for a beginner-friendly or production-ready scanner, this is NOT it.**
 >
 > **You have been warned.**
 
