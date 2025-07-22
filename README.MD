@@ -290,6 +290,7 @@ agentrecon/
 │       ├── fuzzy_tool_matcher.py # Intelligent tool matching
 │       └── severity_mapper.py    # Severity classification
 ├── 📦 scan_pipeline/
+|   ├── 📂 outputs/              # Generated outputs
 │   ├── run_all_scans.py         # Orchestrated scanning
 │   ├── enrich_results.py        # Result enrichment
 │   ├── cve_lookup.py            # CVE database lookup
@@ -300,14 +301,6 @@ agentrecon/
 │   ├── config.py               # Configuration management
 │   └── ...
 ├── 🧪 test_api_response.py       # API testing script
-├── 📄 report_template/
-│   └── VAPT_Report_Template.docx # Report template
-├── 📊 report_generator/
-│   ├── generate_docx.py         # DOCX generation
-│   ├── convert_pdf.py           # PDF conversion
-├── 📂 results/                   # Scan results
-├── 📂 outputs/                   # Generated outputs
-├── 📂 logs/                      # Application logs
 └── ...
 ```
 
