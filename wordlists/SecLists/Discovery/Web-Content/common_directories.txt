@@ -1,4 +1,0 @@
-gift-card
-insurance_applications
-shrdbms
-top-categories
