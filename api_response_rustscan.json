@@ -1,0 +1,20 @@
+{
+  "id": "chatcmpl-001",
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "It seems like you've run a RustScan script, which uses Nmap to scan for open ports on an IP address (45.33.32.156). Here's the summary of the results:\n\n- **Ping Scan**: Completed in 0.25s with no hosts down.\n- **DNS Resolution**: Completed in 13.00s with no errors or failures.\n- **Connect Scan**:\n  - Open ports found:\n    - Port 22: Open (State: open), Service: ssh\n    - Port 80: Open (State: open), Service: http\n  - Scanning completed in 0.26s.\n\nSo, the target IP address has two open ports:\n- Port 22 is open and running SSH service.\n- Port 80 is open and running HTTP service."
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1,
+    "completion_tokens": 103,
+    "total_tokens": 104
+  },
+  "model": "mistral-nemo:latest"
+}

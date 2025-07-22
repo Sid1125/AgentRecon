@@ -1,0 +1,19 @@
+2025-07-20 01:16:59,983 [INFO] __main__:21: Logging configured successfully
+2025-07-20 01:16:59,984 [INFO] __main__:28: Starting AgentRecon MCP Server v1.0.0
+2025-07-20 01:16:59,984 [INFO] __main__:29: Max concurrent tasks: 3
+2025-07-20 01:16:59,984 [INFO] __main__:32: Initializing workflow manager...
+2025-07-20 01:16:59,984 [INFO] __main__:34: Loaded 6 predefined workflows
+2025-07-20 01:16:59,984 [INFO] __main__:38:   - quick_scan: Fast port discovery and basic service enumeration
+2025-07-20 01:16:59,984 [INFO] __main__:38:   - web_scan: Comprehensive web application security assessment
+2025-07-20 01:16:59,985 [INFO] __main__:38:   - full_recon: Complete reconnaissance including all available tools
+2025-07-20 01:16:59,985 [INFO] __main__:38:   - network_discovery: Network and host discovery focused scan
+2025-07-20 01:16:59,985 [INFO] __main__:38:   - vulnerability_assessment: Comprehensive vulnerability identification and assessment
+2025-07-20 01:16:59,985 [INFO] __main__:38:   - ssl_audit: Focused SSL/TLS security assessment
+2025-07-20 01:16:59,985 [INFO] __main__:40: MCP Server initialization complete
+2025-07-20 01:16:59,985 [INFO] __main__:55: Testing workflow detection:
+2025-07-20 01:16:59,985 [INFO] __main__:59:   'run a full scan on example.com' -> full_recon (use workflow: True)
+2025-07-20 01:16:59,985 [INFO] __main__:59:   'do a quick scan of 192.168.1.1' -> quick_scan (use workflow: False)
+2025-07-20 01:16:59,986 [INFO] __main__:59:   'perform web scan on testsite.com' -> web_scan (use workflow: False)
+2025-07-20 01:16:59,986 [INFO] __main__:59:   'scan example.com with nmap' -> None (use workflow: False)
+2025-07-20 01:16:59,986 [INFO] __main__:59:   'comprehensive scan of target.net' -> full_recon (use workflow: True)
+2025-07-20 01:16:59,986 [INFO] __main__:69: MCP Server ready for integration

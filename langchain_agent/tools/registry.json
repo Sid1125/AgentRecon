@@ -1,0 +1,52 @@
+[
+  {
+  "name": "nmap",
+  "description": "Run an Nmap scan to detect open ports and services, including UDP, OS, aggressive, and vuln scripts.",
+  "import_path": "langchain_agent.tools.nmap_tool.run_nmap"
+  },
+  {
+    "name": "masscan",
+    "description": "Run a Masscan to perform fast port scanning.",
+    "import_path": "langchain_agent.tools.masscan_tool.run_masscan"
+  },
+  {
+    "name": "nikto",
+    "description": "Run Nikto to identify web server vulnerabilities.",
+    "import_path": "langchain_agent.tools.nikto_tool.run_nikto"
+  },
+  {
+    "name": "rustscan",
+    "description": "Run RustScan for fast port discovery.",
+    "import_path": "langchain_agent.tools.rustscan_tool.run_rustscan"
+  },
+  {
+    "name": "sslyze",
+    "description": "Run SSLyze to analyze TLS configurations.",
+    "import_path": "langchain_agent.tools.sslyze_tool.run_sslyze"
+  },
+  {
+    "name": "gobuster",
+    "description": "Enumerate directories and files on a web server using wordlists. Useful for discovering hidden resources. Example: file enumeration, directory bruteforce.",
+    "import_path": "langchain_agent.tools.gobuster_tool.run_gobuster"
+  },
+  {
+    "name": "full_scan",
+    "description": "Run full recon including port scan, fingerprinting and CVE enrichment.",
+    "import_path": "langchain_agent.tools.full_scan_tool.run_full_scan"
+  },
+  {
+    "name": "run_workflow",
+    "description": "Execute a predefined scanning workflow (quick_scan, web_scan, full_recon, network_discovery, vulnerability_assessment, ssl_audit).",
+    "import_path": "mcp_server.workflow_tools.run_workflow"
+  },
+  {
+    "name": "list_workflows",
+    "description": "List available workflow types and their descriptions.",
+    "import_path": "mcp_server.workflow_tools.list_workflows"
+  },
+  {
+    "name": "get_workflow_status",
+    "description": "Check the status of a running workflow by ID.",
+    "import_path": "mcp_server.workflow_tools.get_workflow_status"
+  }
+]

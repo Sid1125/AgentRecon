@@ -1,0 +1,20 @@
+{
+  "id": "chatcmpl-001",
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Masscan completed the scan for `scanme.nmap.org`. Here are the results:\n\n| IP Address        | Timestamp                 | Ports Open |\n|-------------------|----------------------------|------------|\n| 45.33.32.156      | 1753038159                | 2          |\n\nPorts opened:\n- Port 22 (SSH)\n- Port 80 (HTTP)"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1,
+    "completion_tokens": 37,
+    "total_tokens": 38
+  },
+  "model": "mistral-nemo:latest"
+}

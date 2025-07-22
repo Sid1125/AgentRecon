@@ -1,0 +1,20 @@
+{
+  "id": "chatcmpl-001",
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "To run an Nmap scan on `scanme.nmap.com`, you can choose the appropriate workflow from the available options. Here's how you can proceed with each workflow:\n\n1. **Quick Network Scan (`quick_scan`)**:\n   ```\n   python run.py quick_scan scanme.nmap.com\n   ```\n\n2. **Web Application Security Scan (`web_scan`)**:\n   ```\n   python run.py web_scan scanme.nmap.com\n   ```\n\n3. **Full Reconnaissance Scan (`full_recon`)**:\n   ```\n   python run.py full_recon scanme.nmap.com\n   ```\n\n4. **Network Discovery (`network_discovery`)**:\n   ```\n   python run.py network_discovery scanme.nmap.com\n   ```\n\n5. **Vulnerability Assessment (`vulnerability_assessment`)**:\n   ```\n   python run.py vulnerability_assessment scanme.nmap.com\n   ```\n\n6. **SSL/TLS Security Audit (`ssl_audit`)**:\n   ```\n   python run.py ssl_audit scanme.nmap.com\n   ```"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1,
+    "completion_tokens": 90,
+    "total_tokens": 91
+  },
+  "model": "mistral-nemo:latest"
+}

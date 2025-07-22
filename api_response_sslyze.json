@@ -1,0 +1,20 @@
+{
+  "id": "chatcmpl-001",
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "[TOOL_CALLS][{\"name\": \"run_sslyze\", \"arguments\": {\"target\": \"scanme.nmap.org:443\"}}]"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1,
+    "completion_tokens": 5,
+    "total_tokens": 6
+  },
+  "model": "mistral-nemo:latest"
+}

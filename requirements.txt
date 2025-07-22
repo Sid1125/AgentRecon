@@ -1,0 +1,22 @@
+langchain
+openai
+ollama
+requests
+docxtpl
+docx2pdf
+python-docx
+flask
+tqdm
+pydantic
+rich
+langchain_community
+langchain_ollama
+langgraph
+langchain_core
+sslyze
+fastapi
+uvicorn
+# Additional dependencies
+aiofiles
+aiohttp
+docxtpl
