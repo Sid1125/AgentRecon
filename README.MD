@@ -5,7 +5,6 @@
 > ## 🐳 **DOCKER IS YOUR GOD!**
 > - **AgentRecon will NOT work at all unless Docker is installed, running, and healthy.**
 > - Every scan, every tool, every LLM, every UI component is run in Docker containers.
-> - If you do not understand Docker, or cannot run Docker, **STOP NOW**—this project is not for you.
 >
 > ## ⚠️ **THIS PROJECT IS NOT PLUG-AND-PLAY!**
 > - You must be comfortable with Docker, Python, and troubleshooting.
